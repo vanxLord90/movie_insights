@@ -1,0 +1,412 @@
+Print the results of the query SQL_SELECT_UNIQUE__CERT:
+   certificate
+0           12
+1            7
+2           13
+3           15
+4          13+
+5          15+
+6          16+
+7         M/PG
+8           PG
+9           18
+10           U
+11   Not Rated
+12           R
+13     Unrated
+14           M
+15          3+
+16      UA 16+
+17          UA
+18         12+
+19      UA 13+
+20           G
+21         All
+22          GP
+23       NC-17
+24          7+
+25      U/A 7+
+26       PG-13
+27       UA 7+
+28         U/A
+29           A
+30          16
+31     U/A 16+
+32         18+
+33        NULL
+Print the results of the query SQL_SELECT_UNIQUE__GENRE:
+          genre
+0         Sport
+1       History
+2       Musical
+3         Music
+4       Fantasy
+5        Horror
+6         Drama
+7        Action
+8     Biography
+9     Talk-Show
+10     Thriller
+11       Sci-Fi
+12       Comedy
+13          War
+14    Animation
+15  Documentary
+16    Game-Show
+17      Romance
+18   Reality-TV
+19      Mystery
+20    Film-Noir
+21        Short
+22        Adult
+23         News
+24      Western
+25    Adventure
+26       Family
+27         NULL
+28        Crime
+Print the results of the query SQL_SELECT_UNIQUE__STARS:
+                stars
+0           John Cena
+1        William Boyd
+2             Madonna
+3          Buck Jones
+4          Moe Howard
+5             Tom Mix
+6         Gary Cooper
+7          John Wayne
+8          Allan Lane
+9        Luis Aguilar
+10          Mel Blanc
+11        Hoot Gibson
+12    Antonio Aguilar
+13         Gene Autry
+14       Frank Welker
+15         Bob Steele
+16  Johnny Mack Brown
+17        Stan Laurel
+18          Tim McCoy
+19   Amitabh Bachchan
+20       Bill Elliott
+21        Harry Carey
+22               NULL
+23   Charles Starrett
+24      Buster Crabbe
+25     Randolph Scott
+26       Eric Roberts
+27        Ken Maynard
+28          Tom Tyler
+29         Roy Rogers
+Print the results of the query SQL_SELECT_VOTES:
+       votes
+0     539085
+1     106759
+2     126445
+3     160501
+4    2186960
+..       ...
+726   184878
+727   112636
+728   158922
+729   109940
+730   184928
+
+[731 rows x 1 columns]
+
+
+Print the results of the query SQL_SELECT_NULL_DIRECTOR:
+      director
+0         NULL
+1         NULL
+2         NULL
+3         NULL
+4         NULL
+...        ...
+40857     NULL
+40858     NULL
+40859     NULL
+40860     NULL
+40861     NULL
+
+[40862 rows x 1 columns]
+Print the results of the query SQL_SELECT_NULL_DIRECTOR:
+      director
+0         NULL
+1         NULL
+2         NULL
+3         NULL
+4         NULL
+...        ...
+40857     NULL
+40858     NULL
+40859     NULL
+40860     NULL
+40861     NULL
+
+[40862 rows x 1 columns]
+Print the results of the query SQL_SELECT_NULL_DIRECTOR:
+      director
+0         NULL
+1         NULL
+2         NULL
+3         NULL
+4         NULL
+...        ...
+40857     NULL
+40858     NULL
+40859     NULL
+40860     NULL
+40861     NULL
+
+[40862 rows x 1 columns]
+Print the results of the query SQL_SELECT_NULL_DIRECTOR:
+Empty DataFrame
+Columns: [director]
+Index: []
+Print the results of the query SQL_SELECT_NULL_DIRECTOR:
+Empty DataFrame
+Columns: [director]
+Index: []
+Print the results of the query SQL_SELECT_NULL_DIRECTOR
+Empty DataFrame
+Columns: [movie]
+Index: []
+Print the results of the query SQL_SELECT_NULL_DIRECTOR:
+Empty DataFrame
+Columns: [director]
+Index: []
+Print the results of the query SQL_SELECT_NULL_MOVIE
+Empty DataFrame
+Columns: [movie]
+Index: []
+Print the results of the query SQL_SELECT_NULL_MOVIE
+Empty DataFrame
+Columns: [movie]
+Index: []
+Print the results of the query SQL_SELECT_NULL_GENRE
+      genre
+0      NULL
+1      NULL
+2      NULL
+3      NULL
+4      NULL
+...     ...
+22046  NULL
+22047  NULL
+22048  NULL
+22049  NULL
+22050  NULL
+
+[22051 rows x 1 columns]
+Print the results of the query SQL_SELECT_NULL_GENRE
+      genre
+0      NULL
+1      NULL
+2      NULL
+3      NULL
+4      NULL
+...     ...
+22046  NULL
+22047  NULL
+22048  NULL
+22049  NULL
+22050  NULL
+
+[22051 rows x 1 columns]
+Print the results of the query SQL_SELECT_EMPTY_GENRE
+Empty DataFrame
+Columns: [genre]
+Index: []
+Print the music genres
+      genre
+0     Music
+1     Music
+2     Music
+3     Music
+4     Music
+...     ...
+4111  Music
+4112  Music
+4113  Music
+4114  Music
+4115  Music
+
+[4116 rows x 1 columns]
+Print the short genres
+      genre
+0     Short
+1     Short
+2     Short
+3     Short
+4     Short
+...     ...
+3782  Short
+3783  Short
+3784  Short
+3785  Short
+3786  Short
+
+[3787 rows x 1 columns]
+Print the movies of stars with over 30 movies
+                                        movie      genre  ...   votes                 director
+0                               Hidden Strike  Adventure  ...    4406              Scott Waugh
+1     The Unbearable Weight of Massive Talent     Comedy  ...  130862             Tom Gormican
+2                      Sympathy for the Devil   Thriller  ...    1214              Yuval Adler
+3                                  Red Notice     Comedy  ...  296278  Rawson Marshall Thurber
+4                              Fantastic Four  Adventure  ...       0             Matt Shakman
+...                                       ...        ...  ...     ...                      ...
+9322                 Broncho Billys Surrender    Western  ...       0                 multiple
+9323                         Untitled Western       NULL  ...       0                 multiple
+9324                     Tombstones Historama    Western  ...       0                 multiple
+9325                                     Rise       NULL  ...       0                 multiple
+9326                                 Red Mask       NULL  ...       0                 multiple
+
+[9327 rows x 8 columns]
+Print the movies of stars with over 30 movies and genre short
+                                                 movie  genre  runtime certificate rating          stars  votes         director
+0                                       Doragon b�ru Z  Short       41        NULL    6.8  Masako Nozawa   7545   Daisuke Nishio
+1    Doragon b�ru: Ossu! Kaette kita Son Gok� to na...  Short       35        NULL    7.1  Masako Nozawa   2287   Yoshihiro Ueda
+2                              Pan-dane to Tamago-hime  Short       12        NULL    7.5           NULL    830   Hayao Miyazaki
+3                                           Slick Hare  Short        8        NULL    7.6      Mel Blanc   1211     Friz Freleng
+4                                              X-Story  Short       13        NULL      7           NULL     92  Vitaliy Shushko
+..                                                 ...    ...      ...         ...    ...            ...    ...              ...
+851                        Clara: Angel of the Rockies  Short       26        NULL   NULL           NULL      0         multiple
+852                              Lucky Braves Sunshine  Short        0        NULL   NULL           NULL      0         multiple
+853                                         Quarantine  Short       15        NULL   NULL           NULL      0         multiple
+854                       A Horseback Ride to the Soul  Short       29        NULL   NULL           NULL      0         multiple
+855              Stage Coach Hold-Up in the Days of 49  Short        0        NULL   NULL           NULL      0         multiple
+
+[856 rows x 8 columns]
+Empty DataFrame
+Columns: [movie, genre, runtime, certificate, rating, stars, votes, director]
+Index: []
+Print the movies of stars with over 30 movies and genre short
+Print the rows in the null_actors_table
+                 movie      genre  runtime certificate rating stars  votes            director
+0       Fantastic Four  Adventure        0        NULL   NULL  NULL      0        Matt Shakman
+1          Gojira -1.0  Adventure        0        NULL   NULL  NULL      0   Takashi Yamazaki 
+2        Jessica Frost    Fantasy        0        NULL   NULL  NULL      0      Runar Berntsen
+3           Karate Kid      Drama        0        NULL   NULL  NULL      0  Jonathan Entwistle
+4          UFO Cowboys    Mystery        0        NULL   NULL  NULL      0            multiple
+...                ...        ...      ...         ...    ...   ...    ...                 ...
+4480    California Joe       NULL        0        NULL   NULL  NULL      0            multiple
+4481            Lariat   Thriller        0        NULL   NULL  NULL      0            multiple
+4482  Untitled Western       NULL        0        NULL   NULL  NULL      0            multiple
+4483              Rise       NULL        0        NULL   NULL  NULL      0            multiple
+4484          Red Mask       NULL        0        NULL   NULL  NULL      0            multiple
+
+[4485 rows x 8 columns]
+Print the untitled movies
+                                                movie genre  runtime  ...                  stars votes            director
+0   Untitled Reese Witherspoon and Will Ferrell Co...  NULL        0  ...  Geraldine Viswanathan     0    Nicholas Stoller
+1   Untitled Michael Mann/George Miller/Ridley Sco...  NULL        0  ...           Ridley Scott     0  Guillermo del Toro
+2        Untitled Peter Lanzani/Mart�n Fisner Project  NULL        0  ...          Peter Lanzani     0            multiple
+3                       Untitled Ori Elon/mini Series  NULL        0  ...          Michael Aloni     0            multiple
+4          Untitled Ranbir Kapoor/Anurag Basu Project  NULL        0  ...          Ranveer Singh     0         Anurag Basu
+5                       Untitled Wyatt Earp Anthology  NULL        0  ...          Travis Fimmel     0            multiple
+6                          Untitled Accountant Sequel  NULL        0  ...            Ben Affleck     0       Gavin OConnor
+7            Untitled Hans Christian Andersen Musical  NULL        0  ...           Ansel Elgort     0            multiple
+8                 Untitled Nawazuddin Siddiqui Series  NULL        0  ...    Nawazuddin Siddiqui     0            multiple
+9           Untitled Aamir khan/Rajkumar Hirani movie  NULL        0  ...             Aamir Khan     0     Rajkumar Hirani
+10                  Untitled Formula One Racing Movie  NULL        0  ...              Brad Pitt     0     Joseph Kosinski
+11                   Untitled Jerry Lee Lewis Project  NULL        0  ...         Christian Lees     0     Terrence Malick
+12                             Untitled R. Balki film  NULL        0  ...      Abhishek Bachchan     0            R. Balki
+13                       Untitled Jesse Stone Project  NULL        0  ...            Tom Selleck     0            multiple
+14         Untitled Apple Studios/Rooney Mara Project  NULL        0  ...            Rooney Mara     0     Luca Guadagnino
+15   Untitled Taylor Kitsch/The Terminal List Prequel  NULL        0  ...            Chris Pratt     0            multiple
+16                      Untitled James Baldwin Biopic  NULL        0  ...           Billy Porter     0            multiple
+17                     Untitled Karl Lagerfeld Biopic  NULL        0  ...             Jared Leto     0            multiple
+18                 Untitled John Williams Documentary  NULL        0  ...          John Williams     0   Laurent Bouzereau
+19                    Untitled Tim Burton Documentary  NULL        0  ...           Jenna Ortega     0           Tara Wood
+20               Untitled Please Dont Destroy Project  NULL        0  ...         Nichole Sakura     0       Paul Briganti
+21                      Untitled Steve Madden Project  NULL        0  ...       Michael Rapaport     0            multiple
+22                           Untitled Pet/Kid Project  NULL        0  ...             Sean Astin     0    Brent Ryan Green
+23                       Untitled Fred Astaire Biopic  NULL        0  ...            Tom Holland     0           Paul King
+24                          Untitled Jim Jones Biopic  NULL        0  ...           Tim Realbuto     0            multiple
+25          Untitled Mahatma Gandhi Biography Project  NULL        0  ...          Pratik Gandhi     0            multiple
+26         Untitled Jonah Hill/Sidney Korshak Project  NULL        0  ...             Jonah Hill     0            multiple
+27       Untitled Manish Malhotra/Kriti Sanon Project  NULL        0  ...            Kriti Sanon     0     Manish Malhotra
+28         Untitled Andrew King Bach Bachelor Project  NULL        0  ...        Andrew Bachelor     0            multiple
+29                     Untitled Sylvia Kristel Biopic  NULL        0  ...           Sylvia Hoeks     0   Micha�l R. Roskam
+30                 Untitled Guy Ritchies Action Movie  NULL        0  ...           Henry Cavill     0         Guy Ritchie
+
+[31 rows x 8 columns]
+Print the untitled movies
+Empty DataFrame
+Columns: [movie, genre, runtime, certificate, rating, stars, votes, director]
+Index: []
+Print the untitled movies
+Empty DataFrame
+Columns: [movie, genre, runtime, certificate, rating, stars, votes, director]
+Index: []
+Print the untitled movies
+                                                movie genre  runtime  ...                  stars votes            director
+0                  Untitled Guy Ritchies Action Movie  NULL        0  ...           Henry Cavill     0         Guy Ritchie
+1                        Untitled Fred Astaire Biopic  NULL        0  ...            Tom Holland     0           Paul King
+2          Untitled Ranbir Kapoor/Anurag Basu Project  NULL        0  ...          Ranveer Singh     0         Anurag Basu
+3           Untitled Aamir khan/Rajkumar Hirani movie  NULL        0  ...             Aamir Khan     0     Rajkumar Hirani
+4          Untitled Apple Studios/Rooney Mara Project  NULL        0  ...            Rooney Mara     0     Luca Guadagnino
+5                    Untitled Jerry Lee Lewis Project  NULL        0  ...         Christian Lees     0     Terrence Malick
+6                      Untitled Sylvia Kristel Biopic  NULL        0  ...           Sylvia Hoeks     0   Micha�l R. Roskam
+7        Untitled Manish Malhotra/Kriti Sanon Project  NULL        0  ...            Kriti Sanon     0     Manish Malhotra
+8   Untitled Reese Witherspoon and Will Ferrell Co...  NULL        0  ...  Geraldine Viswanathan     0    Nicholas Stoller
+9                Untitled Please Dont Destroy Project  NULL        0  ...         Nichole Sakura     0       Paul Briganti
+10  Untitled Michael Mann/George Miller/Ridley Sco...  NULL        0  ...           Ridley Scott     0  Guillermo del Toro
+11                 Untitled John Williams Documentary  NULL        0  ...          John Williams     0   Laurent Bouzereau
+12                    Untitled Tim Burton Documentary  NULL        0  ...           Jenna Ortega     0           Tara Wood
+13                           Untitled Pet/Kid Project  NULL        0  ...             Sean Astin     0    Brent Ryan Green
+14                  Untitled Formula One Racing Movie  NULL        0  ...              Brad Pitt     0     Joseph Kosinski
+15                             Untitled R. Balki film  NULL        0  ...      Abhishek Bachchan     0            R. Balki
+16                Untitled Mohanlal-Priyadarshan Film  NULL        0  ...               Mohanlal     0        Priyadarshan
+17                         Untitled Accountant Sequel  NULL        0  ...            Ben Affleck     0       Gavin OConnor
+18                       Untitled Fast & Furious Film  NULL        0  ...         Dwayne Johnson     0            multiple
+19   Untitled Taylor Kitsch/The Terminal List Prequel  NULL        0  ...            Chris Pratt     0            multiple
+20                      Untitled Wyatt Earp Anthology  NULL        0  ...          Travis Fimmel     0            multiple
+21         Untitled Jonah Hill/Sidney Korshak Project  NULL        0  ...             Jonah Hill     0            multiple
+22                     Untitled Karl Lagerfeld Biopic  NULL        0  ...             Jared Leto     0            multiple
+23          Untitled Mahatma Gandhi Biography Project  NULL        0  ...          Pratik Gandhi     0            multiple
+24       Untitled Peter Lanzani/Mart�n Fisner Project  NULL        0  ...          Peter Lanzani     0            multiple
+25                      Untitled James Baldwin Biopic  NULL        0  ...           Billy Porter     0            multiple
+26                          Untitled Jim Jones Biopic  NULL        0  ...           Tim Realbuto     0            multiple
+27                      Untitled Ori Elon/mini Series  NULL        0  ...          Michael Aloni     0            multiple
+28                      Untitled Steve Madden Project  NULL        0  ...       Michael Rapaport     0            multiple
+29         Untitled Andrew King Bach Bachelor Project  NULL        0  ...        Andrew Bachelor     0            multiple
+30                       Untitled Jesse Stone Project  NULL        0  ...            Tom Selleck     0            multiple
+31                Untitled Nawazuddin Siddiqui Series  NULL        0  ...    Nawazuddin Siddiqui     0            multiple
+32           Untitled Hans Christian Andersen Musical  NULL        0  ...           Ansel Elgort     0            multiple
+
+[33 rows x 8 columns]
+Print the untitled movies
+                                                movie      genre  runtime  ...                         stars votes           director
+0                               Untitled Venom Sequel  Adventure        0  ...                     Tom Hardy     0       Kelly Marcel
+1                            Untitled Mad Max Project  Adventure        0  ...                     Tom Hardy     0      George Miller
+2                  Untitled Guy Ritchies Action Movie       NULL        0  ...                  Henry Cavill     0        Guy Ritchie
+3          Untitled Avatar: The Last Airbender Film 1     Action        0  ...           Nicanor Mendoza III     0  Lauren Montgomery
+4                Untitled Adventures of Tintin Sequel     Action        0  ...                   Andy Serkis     0      Peter Jackson
+..                                                ...        ...      ...  ...                           ...   ...                ...
+90                     Untitled Allen Iverson Project      Sport        0  ...                 Allen Iverson     0           multiple
+91                 Untitled UEFA Euro 2020 Final Film      Sport        0  ...  Italy National Football Team     0           multiple
+92  Untitled Butch Cassidy and the Sundance Kid Se...    Western        0  ...                Reg�-Jean Page     0           multiple
+93  Untitled Will Rogers/Gauchos in Buenos Aires Film  Biography        0  ...             Lisandro Boccacci     0           multiple
+94                            Untitled Sci-Fi Western     Sci-Fi        0  ...               Charlie Clapham     0           multiple
+
+[95 rows x 8 columns]
+Print the upcoming movies
+                         movie      genre  runtime certificate rating                              stars  votes          director
+0                  The Marvels  Adventure        0        NULL   NULL                     Teyonah Parris      0       Nia DaCosta
+1               Dune: Part Two  Adventure        0        NULL   NULL                  Timoth�e Chalamet      0  Denis Villeneuve
+2                  Borderlands  Adventure        0        NULL   NULL                  Ariana Greenblatt      0          Eli Roth
+3                Kalki 2898-AD      Drama        0        NULL   NULL                   Deepika Padukone      0        Nag Ashwin
+4                   Deadpool 3     Comedy        0        NULL   NULL                      Ryan Reynolds      0        Shawn Levy
+...                        ...        ...      ...         ...    ...                                ...    ...               ...
+6600        Thought I Lost You     Sci-Fi        0        NULL   NULL                    Clint Obenchain      0          multiple
+6601  Broncho Billys Surrender    Western        0        NULL   NULL  Gilbert M. Broncho Billy Anderson      0          multiple
+6602         Out of the Depths       NULL        0        NULL   NULL                        Edmund Cobb      0          multiple
+6603      Tombstones Historama    Western        0        NULL   NULL                      Vincent Price      0          multiple
+6604     The Trappers Daughter    Western        0        NULL   NULL                     Charles Herman      0          multiple
+
+[6605 rows x 8 columns]
+Print the upcoming movies
+Empty DataFrame
+Columns: [movie, genre, runtime, certificate, rating, stars, votes, director]
+Index: []
