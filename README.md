@@ -9,5 +9,4 @@ Analyzed and categorized an IMDB data set through Kaggle to gain insights about 
 
 •	Connected Postgres to Power BI and made visualizations (tree maps, bar chart, line chart, pie chart) of insights
 
-![power_bi_dashboard](https://github.com/vanxLord90/movie_insights/assets/72803895/c890b798-53f8-4058-9019-264003ac3c97)
-
+! [alt text] (https://github.com/vanxLord90/movie_insights/blob/main/power_bi_dashboard.png)
