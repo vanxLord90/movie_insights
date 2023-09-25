@@ -8,3 +8,6 @@ Analyzed and categorized an IMDB data set through Kaggle to gain insights about 
 •	Utilized SQL to clean data through anomaly detection, applied content filters, executed case statements, and joins for data enrichment, employed aggregate functions and subqueries for in-depth analysis, and documented all queries in a constants file.
 
 •	Connected Postgres to Power BI and made visualizations (tree maps, bar chart, line chart, pie chart) of insights
+
+![power_bi_dashboard](https://github.com/vanxLord90/movie_insights/assets/72803895/c890b798-53f8-4058-9019-264003ac3c97)
+
